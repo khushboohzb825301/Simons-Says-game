@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2.5rem;
+    cursor: pointer; /* Indicates the button is clickable */
+    outline: none; /* Removes the default focus outline */
+    transition: background-color 0.3s ease; /* Smooth transition for flash effects */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures buttons wrap on smaller screens */
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.green {
+    background-color: #819ff9;
+}
+
+.purple {
+    background-color: #63aac0;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
